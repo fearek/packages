@@ -1,0 +1,23 @@
+{
+  "name": "PrzegrywBOT",
+  "description": "PrzegrywBOT",
+  "version": "2.0.0",
+  "engines": {
+    "node": "10.15.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "discord.js": "^11.4.2",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-binaries": "^4.0.0",
+    "node-opus": "^0.3.1",
+    "request": "^2.88.0",
+    "simple-youtube-api": "^5.1.1",
+    "superagent": "^4.1.0",
+    "ytdl-core": "^0.29.1"
+  }
+}
